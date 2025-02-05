@@ -1,0 +1,75 @@
+.header {
+  display: grid;
+  grid-template-columns: 3fr 3fr ;
+  grid-template-rows: 1fr;
+  margin-left: 10px;
+  margin-right: 10px;
+  gap: 10px;
+  padding: 10px;
+  background-color: #495e57;
+  color: black;
+  position: relative;
+  text-align: left;
+  /* padding-left: 10px; */
+}
+
+.header .logo {
+  grid-column: 1 / 2;
+  display: grid;
+  width: 250px;
+  height: 270px;
+  /* align-items: end; */
+  position: absolute;
+  top: 5px;
+  right: -320px;
+  border-radius: 40px;
+}
+.container{ 
+  /* display: flex;
+  flex-direction: column; */
+  gap: 0;
+  padding: 1px;
+  
+  font-size: 0px;
+ 
+}
+.title{
+  display: inline-block;
+  font-size : 2.0rem;
+  line-height: 0;
+
+  color: #f4ce14 ;
+}
+.city{
+  /* display: inline-block; */
+  font-size: 1.5rem;
+  color: white;
+}
+.description{
+  /* display: inline-block; */
+  font-size: 1rem;
+  color: white;
+  
+}
+
+.book-btn{
+  border: none;
+  border-radius: 15px;
+  background-color:#f4ce14 ;
+  color: black;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+  .book-btn:hover{
+    background-color: #f4ce14;
+    box-shadow: 5px 5px 20px #f4cf14b6;
+    color: black;
+  }
+
+
+
+
+
