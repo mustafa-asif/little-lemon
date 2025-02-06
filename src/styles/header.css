@@ -18,15 +18,13 @@
   display: grid;
   width: 250px;
   height: 270px;
-  /* align-items: end; */
   position: absolute;
   top: 5px;
   right: -320px;
   border-radius: 40px;
 }
 .container{ 
-  /* display: flex;
-  flex-direction: column; */
+ 
   gap: 0;
   padding: 1px;
   
@@ -41,12 +39,12 @@
   color: #f4ce14 ;
 }
 .city{
-  /* display: inline-block; */
+  
   font-size: 1.5rem;
   color: white;
 }
 .description{
-  /* display: inline-block; */
+  
   font-size: 1rem;
   color: white;
   
