@@ -1,22 +1,15 @@
 import { useState } from 'react'
 
 import './App.css'
-import Nav from './components/Nav'
-import Header from './components/Header'
-import Main from './components/Main'
-import Footer from './components/Footer'
+import AppRouter from './config/AppRouter'
+
 
 
 const App= ()=> {
   return <>
+    <AppRouter/>
 
-   < Nav/>
-   < Header/>
-    < Main/>
-    <Footer/>
-   
 
-   
 
   </>
 }
