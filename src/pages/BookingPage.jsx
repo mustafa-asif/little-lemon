@@ -7,10 +7,18 @@ const BookingPage = () => {
     navigate('/');
   }
 
+  const handlerBookingForm = () => {
+    navigate('/bookingForm');
+  }
+
+
   return (
    <>
    <h1>Booking page</h1>
     <button onClick={handlerHome}>Back to home</button>
+    <main>
+      <button onClick={handlerBookingForm}>Booking Form</button>
+    </main>
    </>
   )
 }
